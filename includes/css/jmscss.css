@@ -80,9 +80,6 @@ figure {
   text-align: center;
 }
 
-p.pics {
-  text-align: justify;
-}
 
 p.description {
   text-align:left;
@@ -93,7 +90,6 @@ div.transbox {
     background-color: #ffffff;
     border: none;
     opacity: 0.8;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 
@@ -102,7 +98,16 @@ div.transbox {
 .hideit {display:none}
 
 #main h2, #mainadmin h2 {color:#1210ED; margin: 0px; padding-top:20px; padding-bottom: 10px; font-size:16px; padding-left:10px}
-#leftgutter h2, #leftgutteradmin h2 {color:#1210ED; background-color:#DFE2F1; margin: 0px; padding-top:20px; padding-bottom: 10px; font-size:16px; border: none;-webkit-margin-before: 0px;-webkit-margin-after: 0px; padding-left:10px}
+#leftgutter h2, #leftgutteradmin h2 {
+  color:#1210ED;
+  background-color:#DFE2F1;
+  margin: 0px;
+  padding-top:20px;
+  padding-bottom: 10px;
+  font-size:16px;
+  border: none;
+  padding-left:10px;
+}
 
 
 a {
@@ -162,7 +167,7 @@ legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic
 }
 
 .nav-stacked > li > a:hover,
-.nav-stacked > li > a:focus, {
+.nav-stacked > li > a:focus {
 	border-bottom:hidden white;
 	border-top: hidden white;
 	border-right: groove 8px gray;

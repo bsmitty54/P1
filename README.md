@@ -8,7 +8,7 @@ A basic portfolio page using HTML and CSS to show familiarity with git and
 deploying from a local server to a live server
 
 ## Demo
-<https://www.youtube.com/watch?v=RoqrD9ZD0N4&feature=youtu.be>
+None
 
 ## Details for teaching team
 No login required.

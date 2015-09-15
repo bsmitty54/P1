@@ -148,7 +148,7 @@ legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #1626D8;
+  background-color: #D770D7;
   border-radius:0px;
   border-right:groove 8px gray;
   color:white;
@@ -171,6 +171,7 @@ legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic
 	border-bottom:hidden white;
 	border-top: hidden white;
 	border-right: groove 8px gray;
+  border-radius: 10px;
 	margin:0px;
 }
 

@@ -155,10 +155,10 @@ legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic
 }
 
 .nav-stacked > li > a {
-	border-bottom:groove 8px gray;
-	border-top:hidden white;
-	border-right:hidden white;
-	border-top:hidden white;
+	border-bottom:none;
+	border-top:none;
+	border-right:none;
+	border-top:none;
 	margin:0px;
 }
 

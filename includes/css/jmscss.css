@@ -12,8 +12,9 @@
   font-weight: bold;
   font-family:serif;
   background-color:#f5e8f5;
-  border:none;border-radius:0px;
-  background-image: url("../classimages/11_highland_deck_sunset.jpg");
+  border: solid 1px;
+  border-radius:0px;
+  background-image: url("/images/11_highland_deck_sunset.jpg");
   background-repeat: repeat-x;
   background-size: auto 100%;
 }
@@ -33,7 +34,7 @@
 #center {
   background-color:#fff;
   border-color: #fff;
-  border:none; height: 500px;
+  border:none; height: 100%;
   overflow: auto;
   border-radius:10px;
   margin-top: 0px;
@@ -41,16 +42,17 @@
 }
 
 #main {
-  border: none;
-  height: 500px;
+  border-bottom: solid;
+  height: 100%;
   overflow:auto;
   border-radius:0px;
   margin-top: -15px;
+  margin-bottom: 15px;
 }
 
 #leftgutter {
   border: none;
-  height: 500px;
+  height: 100%;
   overflow: auto;
   background-color:#DFE2F1;
   border-radius:00px;
@@ -60,7 +62,7 @@
 
 #rightside {
   border: none;
-  height: 500px;
+  height: 100%;
   overflow: auto;
   background-color:#DFE2F1;
   border-radius:00px;
@@ -73,7 +75,12 @@
   margin-bottom: 20px;
 }
 
-#maincontent {margin-top: 0px}
+#maincontent {
+  height: 550px;
+  margin-top: 0px;
+  border-bottom: solid thin;
+  margin-bottom: 0px;
+}
 
 
 figure {
@@ -88,8 +95,8 @@ p.description {
 div.transbox {
     margin: 0px 30% 0px 30%;
     background-color: #ffffff;
-    border: none;
-    opacity: 0.8;
+    border: solid 3px;
+    opacity: 0.6;
 }
 
 
@@ -114,7 +121,16 @@ a {
 	color: #560753;
 }
 
-legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic; text-align:center}
+legend, .pwform  p.legend {
+  color:#560753;
+  font-family: annie-use-your-telescope;
+  font-style: italic;
+  text-align:center;
+  font-size: 21px;
+  line-height: inherit;
+  border: 0;
+  border-bottom: solid thin;
+}
 
 .col-lg-3,
 .col-md-3,
@@ -219,6 +235,7 @@ legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic
     width: 700px;
     background: white;
     margin: 5px;
+    margin-left: 50px;
     padding: 5px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -238,6 +255,29 @@ legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic
 
 }
 
+.pwform span {
+    text-align: right;
+    margin: 5px 5px 5px 30px;
+    width: 100px;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0px;
+    font-weight: 700;
+	color:#560753;
+
+}
+
+.pwform span.errormsg {
+  text-align: left;
+  margin: 5px 5px 5px 5px;
+  width: 350px;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 0px;
+  font-weight: 300;
+  color: red;
+}
+
 .pwform input, .pwform select, .pwform input[type="file"] {
 	background-color: #DEE5F7;
 	color: black;
@@ -255,11 +295,35 @@ input[type="checkbox"], input[type="radio"] {
    vertical-align: top;
 }
 
-.pword {
+div.pword {
   margin-left: 20px;
   font-size:18px;
   color:#560753;
-  font-style:italic;
   font-weight: bold;
   font-family:serif;
+}
+
+div a.home {
+    text-align: center;
+    display: block;
+
+    width: 80%;
+}
+
+p a.toollink {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 1.5em;
+}
+
+img.screenshot {
+  float: right;
+  margin: 0px 0px 0px 0px !important;
+  text-align: right !important;
+  vertical-align: bottom !important;
+}
+
+p.desc {
+  margin-left: 20px;
+  color: blue;
 }

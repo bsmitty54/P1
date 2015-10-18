@@ -211,3 +211,55 @@ legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic
  border-right:hidden white;
  border-radius:0px;
 }
+
+legend {color:#560753; font-family: annie-use-your-telescope; font-style: italic; text-align:center}
+
+.pwform {
+
+    width: 700px;
+    background: white;
+    margin: 5px;
+    padding: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 1);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 1);
+
+}
+
+.pwform label {
+    text-align: right;
+
+    margin: 5px 5px 5px 30px;
+    width: 250px;
+	color:#560753;
+
+}
+
+.pwform input, .pwform select, .pwform input[type="file"] {
+	background-color: #DEE5F7;
+	color: black;
+	font-style: italic;
+	border: 2px inset;
+	line-height: 20px;
+	height: 24px;
+	display: inline;
+
+}
+
+input[type="checkbox"], input[type="radio"] {
+   width: 18px;
+   height: 18px;
+   vertical-align: top;
+}
+
+.pword {
+  margin-left: 20px;
+  font-size:18px;
+  color:#560753;
+  font-style:italic;
+  font-weight: bold;
+  font-family:serif;
+}
